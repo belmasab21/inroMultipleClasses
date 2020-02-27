@@ -1,0 +1,13 @@
+public class Lab10 {
+public static void main(String[] args) {
+    album album1 = new album("The Dark Side of the Moon", "Pink Floyd", 1973, "Rock", 11.99);
+    album album2 = new album("Oracular Spectacular", "MGMT", 2009, "Electric");
+    
+    System.out.println(album1.getTitle());
+    System.out.println(album2.getTitle());
+    
+    album1.setPrice(15.99);
+    System.out.printf("The price of %s is $%.2f%n" , album1.getTitle(), album1.getPrice());
+ 
+    }
+}
